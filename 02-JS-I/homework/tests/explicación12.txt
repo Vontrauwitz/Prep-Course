@@ -1,0 +1,15 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+ * Variables
+ las variables son como cajitas etiquetadas para que puedas guardar "cosas" que cosas?, numeros, operaciones, strings, etc. pueden ser constantes o cambiantes las variables ej: var = (nombre, apellido)
+ * Strings
+ es un onjeto que se utiliza para manipular una secuencia de caracteres ej: ´hans' 'trauwitz'
+ * Funciones (argumentos, `return`)
+ function mifunción(el argumento va aqui) {        
+//codigo
+}; y el argumento es: par por ejemplo poner variables que voy a repetir mucho y por eso uso la función
+return: finaliza la ejecución de la función y especifica un valor para devolver a quien ha llamado la función
+ * Declaraciones `if`
+el if es un "si" por ejemplo soy viejo "if" tengo mas de 60 años, else soy joven. (se usa if, else else if)
+ * Valores booleanos (`true`, `false`)
+ son 1 o 0 verdadero o falso y nos sirve para poner condicionantes 10 == 11 false 10 == 10 true
