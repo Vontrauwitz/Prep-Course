@@ -1,0 +1,10 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+for: es un bucle DRY code eso es de no te repitas, un for le ponemos un limite al bucle y hacemos conteos para diferentes propositos es para repetir una o mas instruccipnes x numero de veces de forma automatica.
+
+* `&&`, `||`, `!`
+los 3 son operadores logicos booleanos sirven para:
+&&= 'Y'  sirve para concatenar podemos unir varios valores booleanos y con la tarbla de verdad interpretarlos
+!!= 'O'  sirve para decir este o este en valores booleanos y con la tabla de verdad interpretarlos
+!= 'NO'  no o negación es como el signo menos en aritmetica dos negativos hacen un falso por eso tenemos que checar la tabla de la verdad.
