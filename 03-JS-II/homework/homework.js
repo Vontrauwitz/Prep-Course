@@ -97,7 +97,7 @@ function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
   //Si num1 es mayor a num2 y a num3 y además es positivo, retornar ---> "Número 1 es mayor y positivo"
   //Si alguno de los tres números es negativo, retornar ---> "Hay negativos"
-  //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
+8  //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
 }
@@ -108,7 +108,21 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-}
+  if( numero = prompt("Dime el numero", ""));
+  if(numero < 2) return false;
+
+  if (numero === 2) return true
+  
+  for (var i = 2; i< numero; i++){
+  if(numero % i === 0) {
+    return false;
+  }
+  }
+
+  return true;
+  }
+
+
 
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
